@@ -1,0 +1,156 @@
+.container_flues
+{background-color: black;
+		color: white;
+}
+
+ul
+{
+	list-style-type:none ;
+	display: flex;
+}
+li
+{
+	padding: 20px;
+	font-size: 20px;
+}
+#head_images
+{
+	width: 50%;
+	background-color: white;
+
+}
+#head_images:hover
+{
+	background-color: grey;;
+
+	transition-duration: 0.5s;
+	
+}
+button
+{ background:rgb(164, 162, 162);
+	color: white;
+	border-radius: 20px;
+	font-size: 30px;
+	transition: all 0.6s ease-out;
+
+}
+button:hover
+{
+	animation-name:grey_white;
+	animation-duration: 1s;
+}
+#hover_image
+{
+	width: 100%;
+	height: 400px;
+
+}
+#hover_div
+{
+ background-color: rgb(255, 255, 255);
+ padding: 25px;
+ width: 80%;
+ color: black;
+ position: relative;
+ bottom: 576px;
+ left: 40px;
+
+}
+
+
+#hover_button
+{
+	position: relative;
+	bottom: 220px;
+	left: 55px;
+}
+
+#hover_button:hover
+{
+	animation-name:grey_white;
+	animation-duration: 2s;
+}
+@Keyframes grey_white
+{
+	from{background: grey}
+	to{background:linear-gradient(99deg, rgba(255, 255, 255, 0) 30%, #ffffff 100%);
+		
+	}
+}
+
+
+
+#tech_blog_mid
+{
+	width:100%;
+	font-size: 20px;
+	text-align: center; 
+	padding: 300px;
+}
+#Modern_compact
+{	
+
+	padding-left: 150px;
+
+}
+#Popular-Tech-Blog 
+{
+	font-size: 80px;
+
+}
+#usefull-Tech-Blog
+{
+	font-size: 80px;
+
+} 
+#Read_our_news
+{
+	padding-top: 100px;
+	padding-left: 120px;
+	padding-bottom: 100px;
+}
+#Read_our_news_col
+{ 
+	padding: 100px;
+	font-size: 70px;
+
+}
+#grey_box
+{
+	background-color:dimgrey;
+	width: 100%;
+	padding: 100px;
+	height: 600px;
+
+}
+#list 
+{
+ 	display: block;
+ 	padding: 90px;
+
+}
+#programig_list
+{ padding: 50px;
+	font-size: 50px;
+	color: white;
+	text-decoration: underline;
+	width: 100%;
+}
+.para
+{
+ padding-top: 100px;
+}
+#last_
+{
+	padding: 50px;
+}
+#header_hr_list
+{
+	color: white;
+}
+#header_hr_list:hover 
+{
+    color: grey;
+    transition-duration: 0.5s;
+    
+}
