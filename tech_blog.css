@@ -42,7 +42,7 @@ button:hover
 #hover_image
 {
 	width: 100%;
-	height: 400px;
+	height: 340px;
 
 }
 #hover_div
@@ -52,7 +52,7 @@ button:hover
  width: 80%;
  color: black;
  position: relative;
- bottom: 576px;
+ bottom: 510px;
  left: 40px;
 
 }
