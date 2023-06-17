@@ -45,7 +45,7 @@ button:hover
 	height: 340px;
 
 }
-#hover_div
+.hover_div
 {
  background-color: rgb(255, 255, 255);
  padding: 25px;
@@ -54,21 +54,26 @@ button:hover
  position: relative;
  bottom: 510px;
  left: 40px;
-
-}
-
+ 
+ }
+ 
 
 #hover_button
 {
 	position: relative;
-	bottom: 220px;
-	left: 55px;
+	bottom: 200px;
+	left: 40px;
+
 }
 
 #hover_button:hover
 {
 	animation-name:grey_white;
 	animation-duration: 2s;
+}
+#footer-col
+{
+padding-left: 100px;
 }
 @Keyframes grey_white
 {
